@@ -1,0 +1,49 @@
+{
+  [
+    {
+      "name": "Bruce",
+      "sex": "male",
+      "age": 4,
+      "breed": "doberman",
+      "location": "New York City",
+      "description": "This pup will protect you from any . Beware, he loves to chase down clowns.",
+      "imageUrl": "https://i.pinimg.com/474x/92/79/33/927933df97fbbd6deb8d9910a4db0bba.jpg"
+    },
+    {
+      "name": "Burton",
+      "sex": "male",
+      "age": 2,
+      "breed": "pembroke welsh corgi",
+      "location": "Atlanta",
+      "description": "pembroke welsh corgi",
+      "imageUrl": "https://dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg"
+    },
+    {
+      "name": "Sno Cone",
+      "sex": "female",
+      "age": 0.3,
+      "breed": "maltese terrier",
+      "location": "Houston",
+      "description": "This walking, barking dandilion will delight your day, and night with the endless love it will provide you. Prone to passing out from excitement",
+      "imageUrl": "https://petokulu.com/wp-content/uploads/2019/09/6.jpg"
+    },
+    {
+      "name": "Pugsly",
+      "sex": "male",
+      "age": 5,
+      "breed": "pug",
+      "location": "Florida",
+      "description": "With a button nose prime for sniffing, this fella can dig up any bone in your yard. If you happen to have bones buried in your yard...",
+      "imageUrl": "https://post.healthline.com/wp-content/uploads/2020/08/3180-Pug_green_grass-732x549-thumbnail-732x549.jpg"
+    },
+    {
+      "name": "Biscuit",
+      "sex": "female",
+      "age": 0.6,
+      "breed": "golden retriever",
+      "location": "Seattle",
+      "description": "Good at retrieving things",
+      "imageUrl": "https://dogtime.com/assets/uploads/2011/03/puppy-development.jpg"
+    },
+  ]
+}
