@@ -1,0 +1,60 @@
+.FormHeader {
+  font-family: 'Gothic A1';
+  background-color: white;
+  border-style: solid;
+  border-color: #856084;
+  border-radius: 5px;
+  border-width: 3px;
+  text-align: center;
+}
+
+.AdoptionBody {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+h3 {
+  margin-top: -80px;
+  color: black;
+}
+
+.myForm {
+  display: grid;
+  grid-template-columns: [labels] auto [controls] 1fr;
+  grid-auto-flow: row;
+  grid-gap: .8em;
+  /* background: #eee; */
+  padding: 1.2em;
+}
+.myForm > label  {
+  grid-column: labels;
+  grid-row: auto;
+}
+.myForm > input,
+.myForm > textarea,
+.myForm > button {
+  grid-column: controls;
+  grid-row: auto;
+  border: none;
+  padding: 1em;
+}
+
+.clip-circle {
+  clip-path: circle(150px at center);
+  border-style: solid;
+  border-width: 3px;
+  border-color: lightgray;
+}
+
+img {
+  width: 300px;
+}
+
+input {
+  background-color: #E5E5E5;
+  border-style: none;
+}
+
+label {
+  color: black;
+}
