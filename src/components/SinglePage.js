@@ -22,7 +22,9 @@ export default function SinglePage() {
           </p>
         </div>
         <div className="single-page-button-div">
-          <button className="single-page-button">Interested</button>
+          <a href="/form">
+            <button className="single-page-button">Interested</button>
+          </a>
         </div>
       </div>
     </div>
