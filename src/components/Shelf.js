@@ -1,15 +1,18 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
+import SinglePage from "./SinglePage";
 
 export default function Shelf({dogInfo}) {
   return (
-    <div class="shelf">
+    <div className="shelf">
       <div id="text-content">
-        <p class="name">{dogInfo.name}</p>
-        <p class="detail">{dogInfo.detail}</p>
+        <p className="name">{dogInfo.name}</p>
+        <p className="detail">{dogInfo.detail}</p>
       </div>
-      <div class="photo">
-        <img src={dogInfo.imageUrl} alt={`picture of ${dogInfo.name}`}/>
+      <div className="photo">
+        <a href="/dog">
+          <img src={dogInfo.imageUrl} alt={`picture of ${dogInfo.name}`} />
+        </a>
       </div>
     </div>
-  )
+  );
 }
