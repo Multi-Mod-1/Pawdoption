@@ -1,10 +1,11 @@
 import "./App.css";
-import SinglePage from "./components/SinglePage";
+import Router from "./components/Router";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <SinglePage />
+        <Router />
       </header>
     </div>
   );

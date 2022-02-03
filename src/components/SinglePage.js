@@ -1,6 +1,6 @@
 import "./SinglePage.css";
 
-function SinglePage() {
+export default function SinglePage() {
   return (
     <div className="single-page">
       <h2 className="single-page-dog-name">Dog Name Prop</h2>
@@ -28,5 +28,3 @@ function SinglePage() {
     </div>
   );
 }
-
-export default SinglePage;
