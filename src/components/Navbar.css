@@ -14,7 +14,7 @@
   padding: 8px 15px;
   text-decoration: none;
   font-weight: bold;
-  color: #069;
+  color: #856084;
   border-right: 1px solid #ccc;
 }
 
@@ -23,6 +23,29 @@
   padding: 8px 15px;
   text-decoration: none;
   font-weight: bold;
-  color: #069;
+  color: #856084;
   border-right: 1px solid #ccc;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.logo-one {
+  font-weight: bold;
+  color: #856084;
+  grid-column: 1;
+  font-size: xx-large;
+}
+
+.logo-two{
+  grid-column: 2;
+}
+
+.logo-three {
+  color: #856084;
+  font-weight: bold;
+  grid-column: 3;
+  font-size: xx-large;
 }

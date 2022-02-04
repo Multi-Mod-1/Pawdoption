@@ -9,7 +9,7 @@ export default function Shelf({dogInfo}) {
         <p className="detail">{dogInfo.detail}</p>
       </div>
       <div className="photo">
-        <a href="/dog">
+        <a href={`/dog/${dogInfo.name}`}>
           <img src={dogInfo.imageUrl} alt={`picture of ${dogInfo.name}`} />
         </a>
       </div>

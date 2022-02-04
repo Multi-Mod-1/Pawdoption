@@ -1,22 +1,26 @@
 .FormHeader {
-  font-family: 'Gothic A1';
+  border-radius: 20px;
+  border-color: #FFC93F;
   background-color: white;
   border-style: solid;
-  border-color: #856084;
-  border-radius: 5px;
-  border-width: 3px;
-  text-align: center;
+  width: 50vw;
+  /* height: 60vh; */
+  padding-bottom: 10px;
 }
 /* comment made for push */
 
 .AdoptionBody {
   display: grid;
   grid-template-columns: auto;
+  width: 50vw;
+
 }
 
-h3 {
-  margin-top: -80px;
+h2 {
+  /* margin-top: -10px; */
   color: black;
+  margin-top: -0.25em;
+
 }
 
 .myForm {
@@ -24,8 +28,10 @@ h3 {
   grid-template-columns: [labels] auto [controls] 1fr;
   grid-auto-flow: row;
   grid-gap: .8em;
+  font-size: large;
   /* background: #eee; */
   padding: 1.2em;
+  margin-top: -1em;
 }
 .myForm > label  {
   grid-column: labels;
@@ -41,15 +47,11 @@ h3 {
 }
 
 .clip-circle {
-  clip-path: circle(150px at center);
-  border-style: solid;
-  border-width: 3px;
-  border-color: lightgray;
+  width: 30vw; 
+  clip-path: circle();
+  margin-top: 10px;
 }
 
-img {
-  width: 300px;
-}
 
 input {
   background-color: #E5E5E5;
